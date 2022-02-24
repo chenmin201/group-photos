@@ -5,7 +5,7 @@ import datetime
 
 class Finder:
     file_pattern = re.compile(
-        r'^(\d{4})(\d{2})(\d{2})_\d+\.(jpg|jpeg|mov|mp4|dng)$')
+        r'^(\d{4})(\d{2})(\d{2})_[\s\S]*\.(jpg|jpeg|mov|mp4|dng)$')
     path = None
     greater_than = None
     greater_equal_than = None
